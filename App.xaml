@@ -1,0 +1,16 @@
+﻿<Application x:Class="_222_Titorenko.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!-- Светлая тема (по умолчанию) -->
+                <ResourceDictionary Source="Dictionary.xaml"/>
+
+                <!-- Вторая тема (тёмная) — просто регистрируем, но не применяем -->
+                <ResourceDictionary Source="DictionaryDark.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
